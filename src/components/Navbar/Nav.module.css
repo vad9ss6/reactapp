@@ -1,0 +1,27 @@
+.nav{
+  grid-area: n;
+  background-color: rgb(112, 39, 109);
+}
+
+.item{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.item:hover{
+    background-color: rgb(139, 133, 133);
+}
+
+.item a{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+   
+}
+
+.item a.active{
+    color: rgb(16, 92, 235);
+}
